@@ -22,7 +22,7 @@ pipeline {
   
     stage('Nexus Deployment') {
     steps {
-     bat 'npm publish --registry http://20.124.104.164:8081/repository/npm-private/'
+     bat 'npm publish --registry=https://npm.pkg.github.com/'
     }
   }
   
