@@ -9,7 +9,7 @@
     "test": "ng test"
   },
   "publishConfig": {
-    "registry": "http://20.124.104.164:8081/repository/npm-private/"
+    "registry": "http://20.124.104.164:8081/repository/npm-group/"
 },
   "private": true,
   "dependencies": {
