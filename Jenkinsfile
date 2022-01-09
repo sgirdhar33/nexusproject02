@@ -19,6 +19,13 @@ pipeline {
      bat 'ng build && gulp compress'
     }
   }
+  
+    stage('Nexus Deployment') {
+    steps {
+     bat 'npm publish'
+    }
+  }
+  
     
   /*stage('Code Coverage') {
       steps{
