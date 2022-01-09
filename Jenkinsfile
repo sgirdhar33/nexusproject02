@@ -6,7 +6,7 @@ pipeline {
   stages{
     stage('Install') {
       steps {
-        bat 'npm install -g'
+        bat 'npm install'
         bat 'npm install eslint -g'
         bat 'npm install -g gulp-cli'
         bat 'npm install --save-dev gulp-zip'
